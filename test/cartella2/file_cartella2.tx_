@@ -1,0 +1,41 @@
+CARTELLA 2
+##Microsoft driver
+DatabaseClass=com.microsoft.sqlserver.jdbc.SQLServerDriver
+#dbURL=jdbc:sqlserver://localhost:1433;selectmethod=cursor;databaseName=si_belluno
+#dbURL=jdbc:sqlserver://localhost:1434;selectmethod=cursor;databaseName=si_venezia
+dbURL=jdbc:sqlserver://localhost:1435;selectmethod=cursor;databaseName=si_sondrio
+#dbURL=jdbc:sqlserver://localhost:1436;selectmethod=cursor;databaseName=si_perugia
+dbUser=si
+dbPassword=si
+
+
+#dbURL=jdbc:sqlserver://192.168.1.231:1433;selectmethod=cursor;databaseName=CGIL_SI_RIMINI_3_01_05_QUATTRO
+#dbUser=si
+#dbPassword=si
+
+##
+## Impostazione formato delle date
+##
+
+dateFormat=ddMMMyyyy
+
+## Italiano
+##dateFormatLanguage=it
+##dateFormatCountry=IT
+
+## Inglese
+dateFormatLanguage=en
+dateFormatCountry=GB
+
+## Francese
+##dateFormatLanguage=fr
+##dateFormatCountry=FR
+
+## Tedesco
+##dateFormatLanguage=de
+##dateFormatCountry=DE
+
+
+#Range di date
+dateMax=31-12-9999
+dateMin=01-01-1753
